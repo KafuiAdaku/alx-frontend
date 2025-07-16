@@ -1,3 +1,5 @@
+/* This task declares custom CSS variables */
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
