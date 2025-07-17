@@ -1,4 +1,4 @@
-/* This task declares custom CSS variables to add more styling to section header*/
+/* This task pseudo classes for different link states*/
 
 html {
     font-size: 62.5%;
@@ -60,7 +60,7 @@ a:hover {
 }
 
 a:active {
-    color: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
