@@ -1,5 +1,9 @@
 /* This task set colour values to various html elements */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: #161616;
 }

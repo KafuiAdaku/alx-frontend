@@ -1,6 +1,7 @@
 /* This task declares custom CSS variables to centre section header*/
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 

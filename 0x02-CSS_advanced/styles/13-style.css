@@ -1,6 +1,7 @@
 /* This task declares pseudo classes for different link states*/
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 

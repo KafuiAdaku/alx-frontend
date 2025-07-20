@@ -1,6 +1,7 @@
 /* This task declares custom CSS line-height variables */
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 

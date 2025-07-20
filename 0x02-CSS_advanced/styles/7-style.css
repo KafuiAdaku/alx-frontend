@@ -1,6 +1,7 @@
 /* This task integrates Google fonts into the CSS file */
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 

@@ -1,5 +1,9 @@
 /* This task declares custom CSS variables */
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
