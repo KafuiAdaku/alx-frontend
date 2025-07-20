@@ -1,9 +1,5 @@
 /* This task declares custom CSS line-height variables */
 
-html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
-}
 
 :root {
     --color-primary: #d73953;
@@ -30,7 +26,13 @@ html {
     --line-height-big: 1.8;
 }
 
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
 body {
+    color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
