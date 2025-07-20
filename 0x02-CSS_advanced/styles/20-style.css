@@ -467,7 +467,7 @@ ul.row {
     padding: 0.5rem;
 }
 
-.row:after {
+.row::after {
     content: normal;
     display: table;
     clear: both;
