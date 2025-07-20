@@ -1,4 +1,4 @@
-/* This task adds padding to the sections */
+/* This task customises the navbar*/
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -510,13 +510,13 @@ a:active {
     float: right;
 }
 
-.navbar {
+.nav {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.navbar .nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
