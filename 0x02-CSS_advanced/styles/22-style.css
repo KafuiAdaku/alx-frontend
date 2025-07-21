@@ -451,10 +451,10 @@ a:active {
 
 /* === THEME OVERRIDES === */
 /* Overrides section variables for dark theme */
-[data-section-theme="dark" i] {
+[data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
-    background: var(--color-black);
+    background-color: var(--color-black);
 }
 
 
