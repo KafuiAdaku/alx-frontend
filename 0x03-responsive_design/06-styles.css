@@ -448,6 +448,7 @@ template {
 
   /* Hamburger menu icon styles */
   .header .menu-icon {
+    display: none
     cursor: pointer;
     padding: 2.5rem;
     position: relative;
@@ -496,10 +497,42 @@ template {
     overflow: inherit;
   }
 
+  .header .menu-btn:checked + .menu-icon .navicon {
+    background: transparent;
+  }
+
+  .header .menu-btn:checked + .menu-icon .navicon::before {
+    transform: rotate(-45deg);
+  }
+
+  .header .menu-btn:checked + .menu-icon .navicon::after {
+    transform: rotate(45deg);
+  }
+
+  .header .menu-btn:checked + .menu-icon .navicon::before, 
+  .header .menu-btn:checked + .menu-icon .navicon::before {
+    top: 0;
+  }
+  
+
   @media screen and (max-width: 767px) {
-      :root {
-        --nav-item-margin: 0;
-      }
+    :root {
+      --nav-item-margin: 0;
+      --header-padding: 2rem 0 0;
+    }
+
+    .header {
+      background: var(--color-black);
+    }
+
+    .header-container {
+      flex-wrap: wrap;
+      padding: 0 1.5rem;
+    }
+
+    .header .menu-icon {
+      display: block;
+    }
 
     .navbar-menu {
       display: none;
@@ -512,6 +545,19 @@ template {
       max-height: 0;
       transition: max-height .2s ease-out;
     }
+  }
+
+  @media screen and (max-width: 480px) {
+    .header-logo {
+      flex-basis: 70%;
+    }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    .header-logo: {
+      flex-basis: 79%;
+    }
+
   }
   
   /* Header
