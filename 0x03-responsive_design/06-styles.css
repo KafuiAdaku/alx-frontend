@@ -510,7 +510,7 @@ template {
   }
 
   .header .menu-btn:checked ~ .menu-icon .navicon::before, 
-  .header .menu-btn:checked ~ .menu-icon .navicon::before {
+  .header .menu-btn:checked ~ .menu-icon .navicon::after {
     top: 0;
   }
   
@@ -531,7 +531,7 @@ template {
     }
 
     .header .menu-icon {
-      display: block;
+      display: none;
     }
 
     .navbar-menu {
@@ -554,10 +554,9 @@ template {
   }
 
   @media screen and (min-width: 481px) and (max-width: 767px) {
-    .header-logo: {
+    .header-logo {
       flex-basis: 79%;
     }
-
   }
   
   /* Header
