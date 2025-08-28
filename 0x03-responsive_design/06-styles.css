@@ -513,6 +513,10 @@ template {
   .header .menu-btn:checked ~ .menu-icon .navicon::after {
     top: 0;
   }
+
+  .header .menu-icon {
+    display: none;
+  }
   
 
   @media screen and (max-width: 767px) {
@@ -531,7 +535,7 @@ template {
     }
 
     .header .menu-icon {
-      display: none;
+      display: block;
     }
 
     .navbar-menu {
